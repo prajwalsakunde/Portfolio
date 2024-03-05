@@ -1,5 +1,5 @@
 
-import {BrowerRouter,Routers,Route, Router} from 'react-router-dom';
+import {BrowerRouter,Router,Route} from 'react-router-dom';
 import Startpage from './components/startpage';
 
 function App(){
@@ -7,11 +7,13 @@ function App(){
     <main>
       <BrowerRouter>
       
-      <Routers>
+      <Router>
         <Route path='/' element={<Startpage/>}/>
-      </Routers> 
+      </Router> 
       
       </BrowerRouter>
     </main>
   )
 }
+
+export default App;
