@@ -1,14 +1,11 @@
+
 const Startpage = () => {
     
     return (
-    
-       
-       <div >
-            Hello User !!!
-        </div>
+      <div className="">
       
-    )
-
+      </div>
+    );
 
 }
 
