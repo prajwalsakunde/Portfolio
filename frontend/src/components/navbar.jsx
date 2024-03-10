@@ -1,9 +1,8 @@
 import { NavLink, Link } from "react-router-dom";
 import { useState } from "react";
-import { FiChevronDown, FiCoffee } from "react-icons/fi";
+import { FiChevronDown} from "react-icons/fi";
 import prajwals from '../assets/prajwals.png';
 import { SiBuymeacoffee } from "react-icons/si";
-import coffeecup from '../assets/coffee-cup.png';
 import './navbar.css';
 
 function NavBar() {
@@ -56,7 +55,7 @@ function NavBar() {
               activeTab === "event" ? "text-black font-semibold" : "text-lg font-extralight text-black"
             }`}
             onClick={() => handleNavLinkClick("event")}
-            style={{ marginRight: '10px' }} // Added margin-right style
+            style={{ marginRight: '10px' }} 
           >
             Resume
           </NavLink>
@@ -68,7 +67,7 @@ function NavBar() {
               activeTab === "members" ? "text-black font-semibold" : "text-lg font-extralight text-black"
             }`}
             onClick={() => handleNavLinkClick("members")}
-            style={{ marginRight: '10px' }} // Added margin-right style
+            style={{ marginRight: '10px' }} 
           >
             Projects
           </NavLink>

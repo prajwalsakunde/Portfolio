@@ -6,7 +6,7 @@ function AnimCursor() {
 <AnimatedCursor
           color="255,255,255"
           innerSize={7}
-          outerSize={45}
+          outerSize={30}
           innerScale={2}
           outerScale={3}
           outerAlpha={2}

@@ -1,0 +1,155 @@
+.logo-text{
+   translate: none;
+   rotate: none;
+   scale: none;
+   transform: translate(-90%,0px);
+   transition: 2s; 
+}
+
+
+.outer-div:hover{
+    .logo-text{
+        transform: translate(1%,0px);
+    }
+    .letter-span_1{
+        scale: none;
+        rotate: none;
+        translate: none;
+        transform: translate(0px, 0px)
+    }
+    .letter-span_2{
+        scale: none;
+        rotate: none;
+        translate: none;
+        transform: translate(0px, 0px)    
+    }
+    .letter-span_3{
+        scale: none;
+        rotate: none;
+        translate: none;
+        transform: translate(0px, 0px)    
+    }
+    .letter-span_4{
+        scale: none;
+        rotate: none;
+        translate: none;
+        transform: translate(0px, 0px)    
+    }
+    .letter-span_5{
+        scale: none;
+        rotate: none;
+        translate: none;
+        transform: translate(0px, 0px)    
+    }
+    .letter-span_6{
+        scale: none;
+        rotate: none;
+        translate: none;
+        transform: translate(0px, 0px)    
+    }
+    .letter-span_7{
+        scale: none;
+        rotate: none;
+        translate: none;
+        transform: translate(0px, 0px)    
+    }
+    .letter-span_8{
+        scale: none;
+        rotate: none;
+        translate: none;
+        transform: translate(0px, 0px)    
+    }
+    .letter-span_9{
+        scale: none;
+        rotate: none;
+        translate: none;
+        transform: translate(0px, 0px)    
+    }
+    .letter-span_10{
+        scale: none;
+        rotate: none;
+        translate: none;
+        transform: translate(0px, 0px)    
+    }
+    .letter-span_11{
+        scale: none;
+        rotate: none;
+        translate: none;
+        transform: translate(0px, 0px)    
+    }
+    .letter-span_12{
+        scale: none;
+        rotate: none;
+        translate: none;
+        transform: translate(0px, 0px)    
+    }
+    
+    
+    
+}
+.logo-text:hover{
+    transform: translate(1%,0px); 
+
+}
+
+.letter-span_1{
+    transition: ease-in-out 1s;
+    transform: translate(0px, 28.8px) rotate(5deg) scale(0.5, 0.5);
+
+}
+.letter-span_2{
+    transition: ease-in-out 1s;
+    transform: translate(0px, 28.8px) rotate(5deg) scale(0.5, 0.5);
+    
+}
+.letter-span_3{
+    transition: ease-in-out 1s;
+    transform: translate(0px, 28.8px) rotate(5deg) scale(0.5, 0.5);
+    
+}
+.letter-span_4{
+    transition: ease-in-out 1s;
+    transform: translate(0px, 28.8px) rotate(5deg) scale(0.5, 0.5);
+    
+}
+.letter-span_5{
+    transition: ease-in-out 1s;
+    transform: translate(0px, 28.8px) rotate(5deg) scale(0.5, 0.5);
+    
+}
+.letter-span_6{
+    transition: ease-in-out 1s;
+    transform: translate(0px, 28.8px) rotate(5deg) scale(0.5, 0.5);
+    
+}
+.letter-span_7{
+    transition: ease-in-out 1s;
+    transform: translate(0px, 28.8px) rotate(5deg) scale(0.5, 0.5);
+    
+}
+.letter-span_8{
+    transition: ease-in-out 1s;
+    transform: translate(0px, 28.8px) rotate(5deg) scale(0.5, 0.5);
+    
+}
+.letter-span_9{
+    transition: ease-in-out 1s;
+    transform: translate(0px, 28.8px) rotate(5deg) scale(0.5, 0.5);
+    
+}
+.letter-span_10{
+    transition: ease-in-out 1s;
+    transform: translate(0px, 28.8px) rotate(5deg) scale(0.5, 0.5);
+    
+}
+.letter-span_11{
+    transition: ease-in-out 1s;
+    transform: translate(0px, 28.8px) rotate(5deg) scale(0.5, 0.5);
+    
+}
+
+.letter-span_12{
+    transition: ease-in-out 1s;
+    transform: translate(0px, 28.8px) rotate(5deg) scale(0.5, 0.5);
+    
+}
