@@ -1,0 +1,16 @@
+@keyframes rotate {
+    0% {
+      transform: rotate(-45deg);
+    }
+    50% {
+      transform: rotate(45deg);
+    }
+    100% {
+      transform: rotate(-45deg);
+    }
+  }
+  
+  .rotating-icon {
+    animation: rotate 4s linear infinite;
+  }
+  

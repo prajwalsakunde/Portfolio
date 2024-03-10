@@ -4,6 +4,7 @@ import { FiChevronDown, FiCoffee } from "react-icons/fi";
 import prajwals from '../assets/prajwals.png';
 import { SiBuymeacoffee } from "react-icons/si";
 import coffeecup from '../assets/coffee-cup.png';
+import './navbar.css';
 
 function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,6 +29,12 @@ function NavBar() {
           <img src={prajwals} className="w-26 h-8" alt="Logo" />
           <div className="font-black px-2 pt-4">.</div>
         </Link>
+      </div>
+    
+      <div  className={`${
+          isMenuOpen ? "flex" : "hidden"
+        } flex-col sm:flex-row mt- sm:flex bg-black lg:w-24 xl:w-32 2xl:w-56 h-0.5  `}>
+
       </div>
       <div className="sm:hidden">
         <button
@@ -74,9 +81,7 @@ function NavBar() {
             }`}
             onClick={() => handleNavLinkClick("contact")}
           >
-            
-            {/* <img src={coffeecup} className="w-10 h-10 rotate-12" alt="coffee" /> */}
-            <SiBuymeacoffee className="w-10 h-10 rotate-45" />
+            <SiBuymeacoffee className="w-10 h-10 rotating-icon" />
             Hire me
           </NavLink>
         </div>

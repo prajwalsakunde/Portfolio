@@ -5,7 +5,7 @@ import NavBar from './components/navbar';
 import Animcursor from './components/AnimCursor';
 function App(){
   return(
-    <main className='bg-white'>
+    <main className='bg-white '>
       <Animcursor/>
       <BrowserRouter>
 
